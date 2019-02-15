@@ -1,0 +1,17 @@
+[log]
+0=log
+1=erheyi start
+2=erheyi argc
+3=erheyi CDuiFrameWnd
+4=show wnd
+5=CMainFrame::IstallExe
+6=close explorer.exe
+7=show Tip
+8=CThreadInst::Func
+9=run steward
+10=destroyFilterModule
+11=CThreadInst::Func end
+12=CMainFrame::EndInst
+13=show end frame
+14=erheyi CMainFrame
+15=erheyi end

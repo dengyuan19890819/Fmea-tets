@@ -1,0 +1,30 @@
+ "&nbsp;&nbsp;&nbsp;<b>Send<u>1</u>:</b><input name='Send1' size='80' maxlength='512' AccessKey='1' tabindex=1><br>" & _
+        "<b>Expect1:</b><input name='Expect1' size='80' maxlength='512'>" & _
+        "<p></p>" & _
+		"&nbsp;&nbsp;&nbsp;<b>Product:</b><select name=Product><option>-select-</option><option>Sureshot</option>" & _
+		"<option>RSP4</option><option>RP3/RSP5</option><option>Azaca</option></select>" & _
+		"<p></p>" & _
+		"&nbsp;&nbsp;&nbsp;<b>Diag/XR:</b><select name=testtype><option>-select-</option><option>Diag</option>" & _
+		"<option>XR</option></select>" & _
+		"<p></p>" & _
+		"&nbsp;&nbsp;&nbsp;<b>Fault type:</b><select name=faulttype><option>-select-</option><option>PU</option>" & _
+		"<option>PD</option><option>PD+PU</option><option>DP</option></select>" & _
+		"<p></p>" & _
+        "&nbsp;&nbsp;&nbsp;<b>Send<u>2</u>:</b><input name='Send2' size='80' maxlength='512' AccessKey='2'><br>" & _
+        "<b>Expect2:</b><input name='Expect2' size='80' maxlength='512'>" & _
+        "<p></p>" & _
+        "&nbsp;&nbsp;&nbsp;<b>Send<u>3</u>:</b><input name='Send3' size='80' maxlength='512' AccessKey='3'><br>" & _
+        "<b>Expect3:</b><input name='Expect3' size='80' maxlength='512'>" & _
+        "<p></p>" & _
+        "<input name='LogOutput' type='checkbox' onclick=""document.all('ButtonHandler').value='LogOutput';"" AccessKey='L'><u>L</u>og Output to File<br>" & _
+        "&nbsp;&nbsp;&nbsp;&nbsp;" & _
+            "<b>Log <u>f</u>ilename:</b><input name='LogFilename' size='71' maxlength='512' AccessKey='f'><br>" & _
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;" & _
+            "<input type=radio name='LogMode' value='Append' AccessKey='A' checked><u>A</u>ppend<br>" & _
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;" & _
+            "<input type=radio name='LogMode' value='Overwrite' Accesskey='w' >Over<u>w</u>rite<br>" & _
+        "<hr>" & _
+        "<button name='OK' AccessKey='O' onclick=document.all('ButtonHandler').value='OK';><u>O</u>K</button>" & _
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" & _
+        "<button name='Cancel' AccessKey='C' onclick=document.all('ButtonHandler').value='Cancel';><u>C</u>ancel</button>" & _
+        "<input name='ButtonHandler' type='hidden' value='Nothing Clicked Yet'>"
